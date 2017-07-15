@@ -1,12 +1,28 @@
 {
   "name": "weathercast",
   "version": "1.0.0",
-  "description": "",
+  "description": "天気予報Botです。以下のようなやり取りができます。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "author": "y_misawa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "dotenv-extended": "^2.0.1",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusukemisa/weathercast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yusukemisa/weathercast/issues"
+  },
+  "homepage": "https://github.com/yusukemisa/weathercast#readme"
 }
